@@ -2,15 +2,15 @@ import React from "react";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import cv from "../pdf/CV-LEE.pdf";
 
-const Contact = () => {
+const ContactEs = () => {
 	return (
 		<div className="min-h-[10vh] flex-col flex justify-center items-center mx-auto py-10">
 			<div className="text-center font-mono text-4xl text-white mb-5">
-				<h1>CONTACT</h1>
+				<h1>CONTACTO</h1>
 			</div>
 			<div>
 				<a href={cv} download="CV-LEE">
-					CV DOWNLOAD
+					DESCARGAR CV
 				</a>
 			</div>
 			<div className="flex w-1/2 justify-center items-center mx-auto gap-5">
@@ -34,4 +34,4 @@ const Contact = () => {
 	);
 };
 
-export default Contact;
+export default ContactEs;

@@ -1,7 +1,7 @@
 import React from "react";
 import foto2 from "../images/mymemoji-hi-blue.png";
 
-const Hero = () => {
+const HeroEs = () => {
 	return (
 		<div className="h-[30vh] flex justify-around align-middle p-10">
 			<div className="container flex justify-center align-middle   w-80">
@@ -9,10 +9,10 @@ const Hero = () => {
 			</div>
 			<div className="container flex flex-col justify-center">
 				<div>
-					<h2>Hi! My name is</h2>
+					<h2>Hola! Mi nombre es</h2>
 					<h1>David Lee</h1>
-					<h2>I'm a Full Stack Developer</h2>
-					<h2>Welcome to my PORTFOLIO</h2>
+					<h2>Soy un desarrollador Full Stack</h2>
+					<h2>Bienvenido a mi PORTFOLIO</h2>
 				</div>
 				<p>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
@@ -25,4 +25,4 @@ const Hero = () => {
 	);
 };
 
-export default Hero;
+export default HeroEs;

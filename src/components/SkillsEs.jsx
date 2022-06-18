@@ -14,11 +14,11 @@ import {
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
-const Skills = () => {
+const SkillsEs = () => {
 	return (
 		<>
 			<h2 className="text-center font-mono text-4xl text-white mb-5">
-				SKILLS
+				TECNOLOGIAS
 			</h2>
 			<div className=" min-h-[20vh] grid grid-cols-4 container mx-auto gap-5 w-1/2">
 				<div className="bg-blue-200 rounded shadow w-full h-full pt-5 flex align-middle justify-center flex-col items-center mx-auto border-8 border-blue-900">
@@ -29,7 +29,6 @@ const Skills = () => {
 					<SiCss3 size={55} />
 					<h2 className="mt-3">CSS</h2>
 				</div>
-
 				<div className="bg-blue-200  rounded shadow w-full   h-full pt-4 flex align-middle justify-center flex-col items-center mx-auto border-8 border-blue-900">
 					<SiBootstrap size={55} />
 					<h2 className="mt-3">Bootstrap</h2>
@@ -75,4 +74,4 @@ const Skills = () => {
 	);
 };
 
-export default Skills;
+export default SkillsEs;

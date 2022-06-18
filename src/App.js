@@ -1,20 +1,17 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import English from "./pages/English";
+import Espanol from "./pages/Espanol";
 
 function App() {
 	return (
-		<div className="bg-gradient-to-b from-blue-900 to-blue-200 ">
-			<NavBar />
-			<Hero />
-			<About />
-			<Projects />
-			<Skills />
-			<Contact />
+		<div>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/english" element={<English />} />
+				<Route path="/espanol" element={<Espanol />} />
+			</Routes>
 		</div>
 	);
 }
