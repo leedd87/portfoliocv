@@ -1,6 +1,6 @@
 import React from "react";
 import { SiLinkedin, SiGithub } from "react-icons/si";
-import cv from "../pdf/CV-LEE.pdf";
+import cv from "../pdf/CV-E-LEE.pdf";
 
 const Contact = () => {
 	return (
