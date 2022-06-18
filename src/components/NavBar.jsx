@@ -3,7 +3,7 @@ import React from "react";
 const NavBar = () => {
 	return (
 		<div>
-			<div className="h-[10vh] w-full flex justify-between items-center bg-red-400">
+			<div className="h-[10vh] w-full flex justify-between items-center ">
 				<div className="pl-20">
 					<h1>DL</h1>
 				</div>

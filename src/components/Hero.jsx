@@ -3,7 +3,7 @@ import foto2 from "../images/mymemoji-hi-blue.png";
 
 const Hero = () => {
 	return (
-		<div className="bg-blue-400 min-h-[20vh] flex justify-around align-middle p-10">
+		<div className="h-[30vh] flex justify-around align-middle p-10">
 			<div className="container flex justify-center align-middle   w-80">
 				<img src={foto2} alt="" className="object-cover w-6/6" />
 			</div>
