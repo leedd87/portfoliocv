@@ -17,7 +17,10 @@ import { TbBrandReactNative } from "react-icons/tb";
 const SkillsEs = () => {
 	return (
 		<>
-			<h2 className="text-center font-mono text-4xl text-white mb-5">
+			<h2
+				className="text-center font-mono text-4xl text-white mb-5"
+				id="tecnologia"
+			>
 				TECNOLOGIAS
 			</h2>
 			<div className=" min-h-[20vh] grid grid-cols-4 container mx-auto gap-5 w-1/2">

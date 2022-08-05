@@ -4,14 +4,45 @@ import mindy from "../images/mindy_pet_shop.png";
 import sushi from "../images/sushi_ecommerce.png";
 import capita from "../images/capita_snow.png";
 import booking from "../images/booking_app.png";
+import mytinerary from "../images/mytinerary.png";
+import daftlab from "../images/daftlab_ecommerce.png";
 
 const ProjectsEs = () => {
 	return (
 		<>
-			<h1 className="text-center font-mono text-4xl text-white">
+			<h1
+				className="text-center font-mono text-4xl text-white"
+				id="proyectos"
+			>
 				PROYECTOS
 			</h1>
 			<div className=" min-h-[20vh]  grid grid-cols-3 container  mx-auto my-10 gap-5 w-2/3">
+				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+					<img src={daftlab} alt="amazing_events" className="mb-5" />
+
+					<button className="rounded bg-indigo-400 w-2/4">
+						<a
+							href="http://daftlab.herokuapp.com/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							DAFTLAB - ECOMMERCE
+						</a>
+					</button>
+				</div>
+				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+					<img src={mytinerary} alt="amazing_events" className="mb-5" />
+
+					<button className="rounded bg-indigo-400 w-2/4">
+						<a
+							href="https://mytinerary-lee-frontend.herokuapp.com/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							MyTinerary
+						</a>
+					</button>
+				</div>
 				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={amazing} alt="amazing_events" className="mb-5" />
 

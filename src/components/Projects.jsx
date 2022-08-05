@@ -28,7 +28,7 @@ const Projects = () => {
 					<img src={mindy} alt="amazing_events" className="mb-5" />
 					<button className="rounded bg-indigo-400 w-2/4">
 						<a
-							href="https://finalfinal-mindy.vercel.app/index.html"
+							href="https://mindy-ecommerce.vercel.app/"
 							target="_blank"
 							rel="noreferrer"
 						>

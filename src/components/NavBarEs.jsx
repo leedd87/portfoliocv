@@ -10,8 +10,8 @@ const NavBarEs = () => {
 				<div className="w-1/2 pr-20 flex justify-between">
 					<a href="/">Inicio</a>
 					<a href="/">Sobre Mi</a>
-					<a href="/">Proyectos</a>
-					<a href="/">Tecnologias</a>
+					<a href="#proyectos">Proyectos</a>
+					<a href="#tecnologia">Tecnologias</a>
 					<a href="/">Contacto</a>
 					<a href="/">Descargar CV</a>
 				</div>
