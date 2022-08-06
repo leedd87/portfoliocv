@@ -17,10 +17,14 @@ const ProjectsEs = () => {
 				PROYECTOS
 			</h1>
 			<div className=" min-h-[20vh]  grid grid-cols-3 container  mx-auto my-10 gap-5 w-2/3">
-				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
-					<img src={daftlab} alt="amazing_events" className="mb-5" />
+				<div className="border-2  flex bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+					<img
+						src={daftlab}
+						alt="amazing_events"
+						className="mb-5 daftlab"
+					/>
 
-					<button className="rounded bg-indigo-400 w-2/4">
+					<button className="rounded bg-red-400 w-2/4">
 						<a
 							href="http://daftlab.herokuapp.com/"
 							target="_blank"
@@ -31,7 +35,11 @@ const ProjectsEs = () => {
 					</button>
 				</div>
 				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
-					<img src={mytinerary} alt="amazing_events" className="mb-5" />
+					<img
+						src={mytinerary}
+						alt="amazing_events"
+						className="mb-5 daftlab"
+					/>
 
 					<button className="rounded bg-indigo-400 w-2/4">
 						<a
