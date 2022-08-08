@@ -52,9 +52,9 @@ const ProjectsEs = () => {
 					</button>
 				</div>
 				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
-					<img src={amazing} alt="amazing_events" className="mb-5" />
+					<img src={amazing} alt="amazing_events" className="mb-5 p-4" />
 
-					<button className="rounded bg-red-400 w-2/4">
+					<button className="rounded bg-red-400 w-3/4">
 						<a
 							href="https://amazing-events-mindhub.vercel.app/"
 							target="_blank"
@@ -66,8 +66,8 @@ const ProjectsEs = () => {
 				</div>
 
 				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
-					<img src={mindy} alt="amazing_events" className="mb-5" />
-					<button className="rounded bg-indigo-400 w-2/4">
+					<img src={mindy} alt="amazing_events" className="mb-5 p-4" />
+					<button className="rounded bg-red-400 w-3/4">
 						<a
 							href="https://mindy-ecommerce.vercel.app/"
 							target="_blank"
@@ -78,8 +78,8 @@ const ProjectsEs = () => {
 					</button>
 				</div>
 				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
-					<img src={sushi} alt="amazing_events" className="mb-5" />
-					<button className="rounded bg-indigo-400 w-2/4">
+					<img src={sushi} alt="amazing_events" className="mb-5 p-4" />
+					<button className="rounded bg-red-400 w-3/4">
 						<a
 							href="https://react-ecommerce-lee-final.vercel.app/"
 							target="_blank"
@@ -89,9 +89,9 @@ const ProjectsEs = () => {
 						</a>
 					</button>
 				</div>
-				<div className="border-4 flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
-					<img src={booking} alt="amazing_events" className="mb-5" />
-					<button className="rounded bg-indigo-400 w-2/4">
+				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+					<img src={booking} alt="amazing_events" className="mb-5 p-4" />
+					<button className="rounded bg-red-400 w-3/4">
 						<a
 							href="https://reservas-hoteles.vercel.app/"
 							target="_blank"
@@ -101,9 +101,9 @@ const ProjectsEs = () => {
 						</a>
 					</button>
 				</div>
-				<div className="border-4 flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
-					<img src={capita} alt="amazing_events" className="mb-5" />
-					<button className="rounded bg-indigo-400 w-2/4">
+				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+					<img src={capita} alt="amazing_events" className="mb-5 p-4" />
+					<button className="rounded bg-red-400 w-3/4">
 						<a
 							href="https://capita-snowboard.vercel.app/"
 							target="_blank"
