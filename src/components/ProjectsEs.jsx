@@ -17,14 +17,14 @@ const ProjectsEs = () => {
 				PROYECTOS
 			</h1>
 			<div className=" min-h-[20vh]  grid grid-cols-3 container  mx-auto my-10 gap-5 w-2/3">
-				<div className="border-2  flex bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+				<div className="border-4 border-red-400 flex bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img
 						src={daftlab}
 						alt="amazing_events"
-						className="mb-5 daftlab"
+						className="mb-5 daftlab p-4"
 					/>
 
-					<button className="rounded bg-red-400 w-2/4">
+					<button className="rounded bg-red-400 w-3/4">
 						<a
 							href="http://daftlab.herokuapp.com/"
 							target="_blank"
@@ -34,27 +34,27 @@ const ProjectsEs = () => {
 						</a>
 					</button>
 				</div>
-				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img
 						src={mytinerary}
 						alt="amazing_events"
-						className="mb-5 daftlab"
+						className="mb-5 daftlab p-4"
 					/>
 
-					<button className="rounded bg-indigo-400 w-2/4">
+					<button className="rounded bg-red-400 w-3/4">
 						<a
 							href="https://mytinerary-lee-frontend.herokuapp.com/"
 							target="_blank"
 							rel="noreferrer"
 						>
-							MyTinerary
+							MyTINERARY
 						</a>
 					</button>
 				</div>
-				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={amazing} alt="amazing_events" className="mb-5" />
 
-					<button className="rounded bg-indigo-400 w-2/4">
+					<button className="rounded bg-red-400 w-2/4">
 						<a
 							href="https://amazing-events-mindhub.vercel.app/"
 							target="_blank"
@@ -65,11 +65,11 @@ const ProjectsEs = () => {
 					</button>
 				</div>
 
-				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={mindy} alt="amazing_events" className="mb-5" />
 					<button className="rounded bg-indigo-400 w-2/4">
 						<a
-							href="https://finalfinal-mindy.vercel.app/index.html"
+							href="https://mindy-ecommerce.vercel.app/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -77,7 +77,7 @@ const ProjectsEs = () => {
 						</a>
 					</button>
 				</div>
-				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={sushi} alt="amazing_events" className="mb-5" />
 					<button className="rounded bg-indigo-400 w-2/4">
 						<a
@@ -89,7 +89,7 @@ const ProjectsEs = () => {
 						</a>
 					</button>
 				</div>
-				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+				<div className="border-4 flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={booking} alt="amazing_events" className="mb-5" />
 					<button className="rounded bg-indigo-400 w-2/4">
 						<a
@@ -101,7 +101,7 @@ const ProjectsEs = () => {
 						</a>
 					</button>
 				</div>
-				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
+				<div className="border-4 flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={capita} alt="amazing_events" className="mb-5" />
 					<button className="rounded bg-indigo-400 w-2/4">
 						<a
