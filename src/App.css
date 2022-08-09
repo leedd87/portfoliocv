@@ -95,116 +95,142 @@
 	height: 310px;
 }
 
-/* From uiverse.io by @joe-watson-sbf */
-/* .card { */
-/* width: 380px;
-	height: 400px; */
-/* width: 650px;
-	height: 400px;
-	border-radius: 4px;
-	background: #212121;
-	display: flex;
-	gap: 5px;
-
-	padding: 0.4em;
-}
-
-.card p {
-	height: 100%;
-	flex: 1;
-	overflow: hidden;
-	cursor: pointer;
-	border-radius: 2px;
-	transition: all 0.5s;
-	background: blue;
-	border: 1px solid #ff5a91;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.card p:hover {
-	flex: 4;
-}
-
-.card p span {
-	min-width: 14em;
-
-	padding: 0.5em;
-
-	text-align: center;
-	transform: rotate(-90deg);
-	transition: all 0.5s;
-	text-transform: uppercase;
-	color: #ff568e;
-	letter-spacing: 0.1em;
-}
-
-.card p:hover span {
-	transform: rotate(0);
-} */
-
-/* From uiverse.io by @alexreyes091 */
-/* .card {
-	width: 190px;
-	height: 254px;
-	padding: 2%;
-	background: rgb(255, 255, 255);
-	border-bottom: 2px solid blueviolet;
-	border-right: 2px solid blueviolet;
-	border-top: 2px solid white;
-	border-left: 2px solid white;
-	transition-duration: 1s;
-	transition-property: border-top, border-left, border-bottom, border-right,
-		box-shadow;
-}
-
-.card:hover {
-	border-top: 2px solid blueviolet;
-	border-left: 2px solid blueviolet;
-	border-bottom: 2px solid rgb(238, 103, 238);
-	border-right: 2px solid rgb(238, 103, 238);
-	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
-		rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
-		rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-}
-
-.card__content {
-	font-size: small;
-	text-align: center;
-}
-
-.card__content-heading {
-	color: blueviolet;
-}
-
-.card__content-body p {
-	color: rgb(118, 104, 128);
-	padding-bottom: 1rem;
-}
-
-.card__content-footer button {
-	background-color: rgb(255, 255, 255);
-	color: grey;
-	font-weight: 700;
-	border-radius: 0.2rem;
-	border: 1px solid grey;
-	padding: 0.5rem;
-	margin: 1rem;
-	transition-duration: 1s;
-	transition-property: background-color, color, border;
-}
-
-button:hover {
-	color: white;
-	background-color: rgb(238, 103, 238);
-	border: 1px solid white;
-	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
-		rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-} */
-
 .imagen {
 	width: 220px;
 	height: 220px;
 	margin-top: 30px;
+}
+
+.imagen2 {
+	width: 250px;
+	height: 250px;
+	margin-top: 15px;
+}
+
+/* From uiverse.io by @mrhyddenn */
+.button {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	background: none;
+	color: #0f1923;
+	cursor: pointer;
+	position: relative;
+	padding: 8px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	transition: all 0.15s ease;
+}
+
+.button::before,
+.button::after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	height: calc(50% - 5px);
+	border: 1px solid #7d8082;
+	transition: all 0.15s ease;
+}
+
+.button::before {
+	top: 0;
+	border-bottom-width: 0;
+}
+
+.button::after {
+	bottom: 0;
+	border-top-width: 0;
+}
+
+.button:active,
+.button:focus {
+	outline: none;
+}
+
+.button:active::before,
+.button:active::after {
+	right: 3px;
+	left: 3px;
+}
+
+.button:active::before {
+	top: 3px;
+}
+
+.button:active::after {
+	bottom: 3px;
+}
+
+.button_lg {
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #0f1923;
+	overflow: hidden;
+	box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 2px;
+	background-color: #0f1923;
+}
+
+.button_lg::after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 4px;
+	height: 4px;
+	background-color: #0f1923;
+	transition: all 0.2s ease;
+}
+
+.button_sl {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: -1px;
+	left: -8px;
+	width: 0;
+	background-color: rgb(248 113 113);
+	transform: skew(-15deg);
+	transition: all 0.2s ease;
+}
+
+.button_text {
+	position: relative;
+}
+
+.button:hover {
+	color: #0f1923;
+}
+
+.button:hover .button_sl {
+	width: calc(100% + 15px);
+}
+
+.button:hover .button_lg::after {
+	background-color: #fff;
+}
+
+.button-border {
+	border: 10px solid transparent;
+	background-clip: padding-box, border-box;
+	background-origin: padding-box, border-box;
+	background-image: linear-gradient(#fff, #fff),
+		linear-gradient(#231557, #44107a, #fff800, #ff1361);
 }

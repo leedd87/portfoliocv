@@ -9,7 +9,7 @@ import daftlab from "../images/daftlab_ecommerce.png";
 
 const ProjectsEs = () => {
 	return (
-		<div>
+		<div className="bg-red-400">
 			<h1
 				className="text-center font-mono text-4xl text-white"
 				id="proyectos"
@@ -54,7 +54,7 @@ const ProjectsEs = () => {
 				<div className="border-4 flex border-red-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={amazing} alt="amazing_events" className="mb-5 p-4" />
 
-					<button className="rounded bg-red-400 w-3/4">
+					{/* <button className="rounded bg-red-400 w-3/4">
 						<a
 							href="https://amazing-events-mindhub.vercel.app/"
 							target="_blank"
@@ -62,6 +62,12 @@ const ProjectsEs = () => {
 						>
 							AMAZING EVENTS
 						</a>
+					</button> */}
+					<button class="button">
+						<span class="button_lg">
+							<span class="button_sl"></span>
+							<span class="button_text">AMAZING EVENTS</span>
+						</span>
 					</button>
 				</div>
 

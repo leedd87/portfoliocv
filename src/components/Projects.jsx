@@ -13,7 +13,7 @@ const Projects = () => {
 				<div className="flex bg-blue-100 flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={amazing} alt="amazing_events" className="mb-5" />
 
-					<button className="rounded bg-indigo-400 w-2/4">
+					{/* <button className="rounded bg-indigo-400 w-2/4">
 						<a
 							href="https://amazing-events-mindhub.vercel.app/"
 							target="_blank"
@@ -21,6 +21,12 @@ const Projects = () => {
 						>
 							AMAZING EVENTS
 						</a>
+					</button> */}
+					<button class="button">
+						<span class="button_lg">
+							<span class="button_sl"></span>
+							<span class="button_text">AMAZING EVENTS</span>
+						</span>
 					</button>
 				</div>
 

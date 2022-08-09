@@ -8,7 +8,7 @@ const NavBarEs = () => {
 					<h1 className=" text-4xl">DL</h1>
 				</div>
 				<div className="w-1/2 pr-20 flex justify-between">
-					<a href="/" className="text-lg hover:text-white">
+					<a href="/" className="text-lg  cssbuttons-io">
 						Inicio
 					</a>
 					<a href="#sobremi" className="text-lg hover:text-white">
