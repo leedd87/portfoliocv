@@ -1,4 +1,5 @@
 import React from "react";
+import foto3 from "../images/mymemoji-code.png";
 
 const AboutEs = () => {
 	return (
@@ -15,6 +16,7 @@ const AboutEs = () => {
 				aprender junto a mis pares para poder desarrollarme en el ámbito de
 				trabajo que me toque ejercer.
 			</p>
+			<img src={foto3} alt="" className="object-cover imagen " />
 		</div>
 	);
 };

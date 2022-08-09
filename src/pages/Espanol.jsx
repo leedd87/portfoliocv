@@ -1,5 +1,6 @@
 import React from "react";
 import AboutEs from "../components/AboutEs";
+
 import ContactEs from "../components/ContactEs";
 import HeroEs from "../components/HeroEs";
 import NavBarEs from "../components/NavBarEs";
@@ -14,6 +15,7 @@ const Espanol = () => {
 				<HeroEs />
 				<AboutEs />
 				<ProjectsEs />
+				{/* <Card /> */}
 				<SkillsEs />
 				<ContactEs />
 			</div>

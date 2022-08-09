@@ -9,7 +9,7 @@ import daftlab from "../images/daftlab_ecommerce.png";
 
 const ProjectsEs = () => {
 	return (
-		<>
+		<div>
 			<h1
 				className="text-center font-mono text-4xl text-white"
 				id="proyectos"
@@ -114,7 +114,7 @@ const ProjectsEs = () => {
 					</button>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 
