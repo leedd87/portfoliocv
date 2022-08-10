@@ -234,3 +234,131 @@
 	background-image: linear-gradient(#fff, #fff),
 		linear-gradient(#231557, #44107a, #fff800, #ff1361);
 }
+
+/*Buton ENGLISH*/
+.buttonEs {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	background: none;
+	color: #0f1923;
+	cursor: pointer;
+	position: relative;
+	padding: 8px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	transition: all 0.15s ease;
+}
+
+.buttonEs::before,
+.buttonEs::after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	height: calc(50% - 5px);
+	border: 1px solid #7d8082;
+	transition: all 0.15s ease;
+}
+
+.buttonEs::before {
+	top: 0;
+	border-bottom-width: 0;
+}
+
+.buttonEs::after {
+	bottom: 0;
+	border-top-width: 0;
+}
+
+.buttonEs:active,
+.buttonEs:focus {
+	outline: none;
+}
+
+.buttonEs:active::before,
+.buttonEs:active::after {
+	right: 3px;
+	left: 3px;
+}
+
+.buttonEs:active::before {
+	top: 3px;
+}
+
+.buttonEs:active::after {
+	bottom: 3px;
+}
+
+.button_lgEs {
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	background-color: rgb(248 113 113);
+	overflow: hidden;
+	box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lgEs::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 2px;
+	background-color: #0f1923;
+}
+
+.button_lgEs::after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 4px;
+	height: 4px;
+	background-color: #0f1923;
+	transition: all 0.2s ease;
+}
+
+.button_slEs {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: -1px;
+	left: -8px;
+	width: 0;
+	background-color: rgb(96 165 250);
+	transform: skew(-15deg);
+	transition: all 0.2s ease;
+}
+
+.button_textEs {
+	position: relative;
+}
+
+.buttonEs:hover {
+	color: #0f1923;
+}
+
+.buttonEs:hover .button_slEs {
+	width: calc(100% + 15px);
+}
+
+.buttonEs:hover .button_lgEs::after {
+	background-color: #fff;
+}
+
+.button-borderEs {
+	border: 10px solid transparent;
+	background-clip: padding-box, border-box;
+	background-origin: padding-box, border-box;
+	background-image: linear-gradient(#fff, #fff),
+		linear-gradient(#231557, #44107a, #fff800, #ff1361);
+}

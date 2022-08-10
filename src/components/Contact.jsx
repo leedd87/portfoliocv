@@ -5,7 +5,10 @@ import cv from "../pdf/CV-E-LEE-DAVID.pdf";
 const Contact = () => {
 	return (
 		<div className="min-h-[10vh] flex-col flex justify-center items-center mx-auto py-10">
-			<div className="text-center font-mono text-4xl text-white mb-5">
+			<div
+				className="text-center font-mono text-4xl text-white mb-5"
+				id="contact"
+			>
 				<h1>CONTACT</h1>
 			</div>
 			<div>

@@ -4,22 +4,19 @@ import foto2 from "../images/mymemoji-hi-blue.png";
 const Hero = () => {
 	return (
 		<div className="h-[30vh] flex justify-around align-middle p-10">
-			<div className="container flex justify-center align-middle   w-80">
-				<img src={foto2} alt="" className="object-cover w-6/6" />
+			<div className=" flex justify-center align-middle w-64 h-64 rounded-full button-border  overflow-hidden">
+				<img src={foto2} alt="" className="object-cover imagen " />
 			</div>
 			<div className="container flex flex-col justify-center">
 				<div>
-					<h2>Hi! My name is</h2>
-					<h1>David Lee</h1>
-					<h2>I'm a Full Stack Developer</h2>
-					<h2>Welcome to my PORTFOLIO</h2>
+					<p className="text-xl">Hello! My name is</p>
+					<h1 className="text-8xl font-semibold text-white animate-text">
+						DAVID LEE
+					</h1>
+					<h2 className="text-4xl text-white">
+						Full Stack MERN & Mobile Developer
+					</h2>
 				</div>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
-					provident minima laborum cupiditate eveniet laudantium architecto
-					officiis ad sequi, accusantium, culpa consequuntur, adipisci
-					officia? Voluptatum aperiam doloremque tempora neque dolores!
-				</p>
 			</div>
 		</div>
 	);

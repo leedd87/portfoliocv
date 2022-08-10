@@ -140,15 +140,7 @@ const ProjectsEs = () => {
 
 				<div className="border-8 flex border-blue-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={sushi} alt="amazing_events" className="mb-5 p-4" />
-					{/* <button className="rounded bg-red-400 w-3/4">
-						<a
-							href="https://react-ecommerce-lee-final.vercel.app/"
-							target="_blank"
-							rel="noreferrer"
-						>
-							SUSHI E-COMMERCE
-						</a>
-					</button> */}
+
 					<button class="button">
 						<span class="button_lg">
 							<span class="button_sl"></span>
@@ -158,15 +150,7 @@ const ProjectsEs = () => {
 				</div>
 				<div className="border-8 flex border-blue-400 bg-white flex-col rounded justify-center items-center w-[380px] mx-auto h-[400px]">
 					<img src={booking} alt="amazing_events" className="mb-5 p-4" />
-					{/* <button className="rounded bg-red-400 w-3/4">
-						<a
-							href="https://reservas-hoteles.vercel.app/"
-							target="_blank"
-							rel="noreferrer"
-						>
-							RESERVA DE HOTELES
-						</a>
-					</button> */}
+
 					<button class="button">
 						<span class="button_lg">
 							<span class="button_sl"></span>

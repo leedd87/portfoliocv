@@ -2,7 +2,7 @@ import React from "react";
 import AboutEs from "../components/AboutEs";
 
 import ContactEs from "../components/ContactEs";
-import Footer from "../components/Footer";
+import FooterEs from "../components/FooterEs";
 import HeroEs from "../components/HeroEs";
 import NavBarEs from "../components/NavBarEs";
 import ProjectsEs from "../components/ProjectsEs";
@@ -18,7 +18,7 @@ const Espanol = () => {
 				<ProjectsEs />
 				<SkillsEs />
 				<ContactEs />
-				<Footer />
+				<FooterEs />
 			</div>
 		</div>
 	);

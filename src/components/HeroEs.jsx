@@ -5,7 +5,6 @@ const HeroEs = () => {
 	return (
 		<div className="h-[30vh] flex justify-around align-middle p-10">
 			<div className=" flex justify-center align-middle w-64 h-64 rounded-full button-border  overflow-hidden">
-				{/* border-red-400  bg-white border-8 */}
 				<img src={foto2} alt="" className="object-cover imagen " />
 			</div>
 			<div className="container flex flex-col justify-center">

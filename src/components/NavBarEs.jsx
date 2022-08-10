@@ -1,4 +1,5 @@
 import React from "react";
+import cv from "../pdf/CV-LEE-DAVID.pdf";
 
 const NavBarEs = () => {
 	return (
@@ -23,8 +24,8 @@ const NavBarEs = () => {
 					<a href="/" className="text-lg hover:text-white">
 						Contacto
 					</a>
-					<a href="/" className="text-lg hover:text-white">
-						Descargar CV
+					<a href={cv} download="CV-LEE">
+						DESCARGAR CV
 					</a>
 				</div>
 			</div>

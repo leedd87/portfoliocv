@@ -1,5 +1,4 @@
 import React from "react";
-import foto3 from "../images/mymemoji-code.png";
 
 const AboutEs = () => {
 	return (
@@ -8,7 +7,7 @@ const AboutEs = () => {
 				SOBRE MI
 			</h1>
 			<div className="flex items-center justify-center my-10">
-				<div className="flex-col flex justify-center items-center w-1/2">
+				<div className="flex-col flex justify-center items-center">
 					<p className="w-1/2 text-start text-2xl">
 						Soy una persona curiosa, con espíritu de aprendizaje y con
 						pasión por la enseñanza.
@@ -23,10 +22,6 @@ const AboutEs = () => {
 						conocimientos y aprender junto a mis pares para poder
 						desarrollarme en el ámbito de trabajo que me toque ejercer.
 					</p>
-				</div>
-				<div className="w-64 h-64 rounded-full overflow-hidden button-border ">
-					{/* border-red-400 bg-white border-4  */}
-					<img src={foto3} alt="" className="object-cover imagen2 " />
 				</div>
 			</div>
 		</div>
