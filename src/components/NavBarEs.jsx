@@ -24,7 +24,11 @@ const NavBarEs = () => {
 					<a href="/" className="text-lg hover:text-white">
 						Contacto
 					</a>
-					<a href={cv} download="CV-LEE">
+					<a
+						href={cv}
+						download="CV-LEE"
+						className="text-lg hover:text-white"
+					>
 						DESCARGAR CV
 					</a>
 				</div>
