@@ -11,7 +11,7 @@ import SkillsEs from "../components/SkillsEs";
 const Espanol = () => {
 	return (
 		<div>
-			<div className="bg-gradient-to-b from-blue-400 to-blue-200 ">
+			<div className="bg-gradient-to-b from-blue-400 to-blue-200">
 				<NavBarEs />
 				<HeroEs />
 				<AboutEs />

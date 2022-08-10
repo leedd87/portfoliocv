@@ -16,7 +16,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 
 const SkillsEs = () => {
 	return (
-		<>
+		<div className="py-10">
 			<h2
 				className="text-center font-mono text-4xl text-white mb-5"
 				id="tecnologia"
@@ -73,7 +73,7 @@ const SkillsEs = () => {
 					<h2 className="mt-3">Git</h2>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 
