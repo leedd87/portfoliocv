@@ -1,11 +1,13 @@
 import React from "react";
 import { Link as LinkRouter } from "react-router-dom";
+import "../home.css";
 
 const Home = () => {
 	return (
-		<div className="bg-blue-200 min-h-screen grid place-content-center">
-			<div className="w-[500px] flex justify-center flex-col items-center">
-				<h1 className="text-4xl">DAVID LEE</h1>
+		<>
+			<div className="container-animation projects">
+				<h1 className="animation-h1">DAVID LEE</h1>
+				<div className="overlay"></div>
 				<div className=" w-[250px] my-5 flex items-center justify-around">
 					<LinkRouter to="/english" className="btn-engEn">
 						EN
@@ -15,7 +17,7 @@ const Home = () => {
 					</LinkRouter>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
