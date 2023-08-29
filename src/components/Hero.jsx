@@ -4,9 +4,6 @@ import foto2 from "../images/mymemoji-hi-blue.png";
 const Hero = () => {
 	return (
 		<div className="h-[30vh] flex justify-around align-middle p-10">
-			<div className=" flex justify-center align-middle w-64 h-64 rounded-full button-border  overflow-hidden">
-				<img src={foto2} alt="" className="object-cover imagen " />
-			</div>
 			<div className="container flex flex-col justify-center">
 				<div>
 					<p className="text-xl">Hello! My name is</p>
